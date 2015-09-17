@@ -29,8 +29,11 @@ body {
 	position: fixed;
 	top: 0%;
   right: 0%;
+  width: auto;
+  height: 100%;
+  margin: auto auto;
   min-width: 100%;
-  min-height: 100%;
+  min-height: 600px;
   z-index: -2;
 }
 
