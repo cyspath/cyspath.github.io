@@ -100,7 +100,9 @@ body {
 .project-list a:hover {
   color: #eee;
   font-weight: 600;
+
 }
+
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {

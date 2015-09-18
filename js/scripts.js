@@ -20,12 +20,12 @@ $(function () {
   }, 500);
   var timeOut;
 
-  $('#pictur, #avalanche, #chess, #resume').mouseenter(function (e) {
+  $('#huddleup, #thunderbird, #chess, #resume').mouseenter(function (e) {
     window.clearTimeout(timeOut);
     $('.' + e.currentTarget.id).trigger('click');
   });
 
-  $('#pictur, #avalanche, #chess, #resume').mouseout(function (e) {
+  $('#huddleup, #thunderbird, #chess, #resume').mouseout(function (e) {
     timeOut = window.setTimeout(function () {
       $('.me3').trigger('click');
     }, 500);
