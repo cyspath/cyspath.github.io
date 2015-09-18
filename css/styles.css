@@ -1,7 +1,13 @@
 a:link { color: #eee; }
 a:visited { color: #eee; text-decoration: none; }
-a:hover { color: #aaa; text-decoration: none; }
 a:active { color: #aaa; text-decoration: none; }
+
+
+a.mail:hover { color: #FFFFC2; text-decoration: none; }
+a.github:hover { color: black; text-decoration: none; }
+a.tumblr:hover { color: #36465D; text-decoration: none; }
+a.linkedin:hover { color: #0077B5; text-decoration: none; }
+
 
 html,
 body {
@@ -13,7 +19,7 @@ body {
   font-size: 24px;
   color: #eee;
   text-align: center;
-  text-shadow: 0 1px 3px black;
+  text-shadow: 0 1px 3px #2C284A;
 }
 
 .bg-overlay {
@@ -38,11 +44,12 @@ body {
 }
 
 .social {
-  font-size: 28px;
+  font-size: 45px;
+  margin-bottom: 20px;
 }
 
 .social a {
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 .description {
@@ -68,10 +75,25 @@ body {
 
 .info {
   margin-top: 30px;
+  width: 370px;
+  height: 150px;
+  margin: 0 auto;
+
+  -moz-border-radius: 6px 6px 6px 6px;
+  -webkit-border-radius: 6px 6px 6px 6px;
+  border-radius: 6px 6px 6px 6px;
+  padding: 10px;
+
+  -webkit-box-shadow: 0px 0px 2px black;
+  -moz-box-shadow: 0px 0px 2px black;
+
+  background-color: #0A1C17;
+
 }
 
 #resume {
   font-weight: 300;
+  margin-top: 20px;
   text-decoration: none !important;
 }
 #resume:hover {
@@ -82,39 +104,55 @@ body {
   font-weight: 300;
 }
 
-.project-list {
-  color: #eee;
+.line {
+  background: -webkit-radial-gradient(circle, white, white, white, #585252);
+  background: -o-radial-gradient(circle, white, white, white, #585252);
+  background: -moz-radial-gradient(circle, white, white, white, #585252);
+  background: radial-gradient(circle, white, white, white, #585252);
+  height: 1px;
+  width: 326px;
+  margin: -10px auto 0 auto;
 }
 
-.project-list div {
-  /*display: block;*/
+.projects-div {
+  color: white;
+  text-shadow:  0 0 1px #1D2024, 0 0 2px #2C284A,  0 0 3px #2C284A, 0 0 5px #2C284A, 0 0 3px #2C284A, 0 0 8px #2C284A, 0 0 10px #2C284A, 0 0 15px #2C284A;
+
+  height: 40px;
+  width: 360px;
+  margin: 0 auto;
+}
+
+.projects-div div {
   float: left;
+  margin: 0 10px;
 }
 
-.project-list a {
+.projects-div a {
   text-decoration: none;
   padding: 5px;
-  font-size: 16px;
+  font-weight: 300;
+  font-size: 15px;
+
 }
 
-.project-list a:hover {
-  color: #eee;
-  font-weight: 600;
+.projects-div a:hover {
+  font-weight: 300;
+  color: black;
+  text-shadow:  0 0 1px black, 0 0 3px white, 0 0 3px white, 0 0 3px white, 0 0 8px white,  0 0 8px white,  0 0 8px white,  0 0 8px white,  0 0 8px white,  0 0 8px white,  0 0 8px white, 0 0 10px white, 0 0 15px white;
 
 }
 
 .description-1, .description-2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 24px;
-  color: #282D32;
-  text-shadow:  0 0 0.2em #FFF,  0 0 0.2em #FFF,  0 0 0.2em #FFF, 0 0 0.2em #FFF, 0 0 1.2em #FFF, 0 0 1.2em #FFF, 0 0 1.2em #FFF;
+  /*color: #282D32;*/
+  color: white;
+  text-shadow:  0 0 1px #1D2024, 0 0 2px #2C284A,  0 0 3px #2C284A, 0 0 5px #2C284A, 0 0 3px #2C284A, 0 0 8px #2C284A, 0 0 10px #2C284A, 0 0 15px #2C284A;
   text-align: center;
 }
-/*p {
 
-  text-shadow: -2px 0 #363439, 0 2px #363439, 2px 0 #363439, 0 -2px #363439, 0 0 0.2em #FFF, 0 0 0.2em #87F, 0 0 0.2em #87F;
-}*/
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
