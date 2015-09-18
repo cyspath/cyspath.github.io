@@ -13,7 +13,7 @@ body {
   font-size: 24px;
   color: #eee;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  text-shadow: 0 1px 3px black;
 }
 
 .bg-overlay {
@@ -83,12 +83,12 @@ body {
 }
 
 .project-list {
-  list-style-type: none;
   color: #eee;
 }
 
 .project-list div {
-  display: block;
+  /*display: block;*/
+  float: left;
 }
 
 .project-list a {
@@ -103,6 +103,18 @@ body {
 
 }
 
+.description-1, .description-2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #282D32;
+  text-shadow:  0 0 0.2em #FFF,  0 0 0.2em #FFF,  0 0 0.2em #FFF, 0 0 0.2em #FFF, 0 0 1.2em #FFF, 0 0 1.2em #FFF, 0 0 1.2em #FFF;
+  text-align: center;
+}
+/*p {
+
+  text-shadow: -2px 0 #363439, 0 2px #363439, 2px 0 #363439, 0 -2px #363439, 0 0 0.2em #FFF, 0 0 0.2em #87F, 0 0 0.2em #87F;
+}*/
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
