@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -19,6 +20,9 @@
   </head>
 
   <body>
+    <div class="cover-spinner"><img src="img/spinner.gif" alt="" /></div>
+
+
     <div class="site-wrapper">
       <img src="img/backgroundsf1.jpg" alt="" class="bg"/>
       <div class="bg-overlay"></div>
@@ -47,7 +51,7 @@
               </li>
 
               <li>
-                <img src="" alt="Thunderbird" class="img-holder"/>
+                <img src="img/thunderbird2.gif" alt="Thunderbird" class="img-holder"/>
               </li>
 
               <li>
@@ -106,6 +110,12 @@
       ga('create', 'UA-66911070-1', 'auto');
       ga('send', 'pageview');
 
+    </script>
+
+    <script>
+      $(window).load(function() {
+        $('div.cover-spinner').fadeOut()
+      });
     </script>
   </body>
 </html>

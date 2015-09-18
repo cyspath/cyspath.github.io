@@ -254,3 +254,14 @@ body {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
+
+.cover-spinner {
+  height: 100%;
+  width: 100%;
+  z-index: 2000;
+  background-color: white;
+}
+
+.cover-spinner img {
+  margin-top: 35%;
+}
