@@ -8,7 +8,7 @@ var texts = [
 var imgs = [".img-1", ".img-2", ".img-3", ".img-4"]
 
 function type(i) {
-  $(imgs[i] + ":visible").fadeIn(1000);
+  $(imgs[i]).fadeIn(1000);
 
   var arr = texts[i].split("");
   var text = ""
@@ -19,7 +19,7 @@ function type(i) {
       clearInterval(interval)
       if (i < 3) {
         setTimeout(function() {
-          $(imgs[i] + ":visible").fadeOut(2000, type(i + 1))
+          $(imgs[i]).fadeOut(2000, type(i + 1))
         }.bind(this), 700)
       }
     }
