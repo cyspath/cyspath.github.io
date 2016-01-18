@@ -1,0 +1,17 @@
+.img-1, .img-2, .img-3, .img-4 {
+  display: none;
+  position: absolute;
+}
+
+p {
+  position: absolute;
+  text-shadow: #FFFFFF 0 0 10px, #FFFFFF 0 0 10px, #FFFFFF 0 0 10px, #FFFFFF 0 0 10px, #FFFFFF 0 0 10px,#FFFFFF 0 0 20px;
+  font-size: 20px;
+  margin-left: 10px;
+  width: 280px;
+}
+
+button {
+  position: relative;
+  margin-top: 350px;
+}
